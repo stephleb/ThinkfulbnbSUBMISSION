@@ -1,3 +1,2 @@
-# ThinkfulbnbSUBMISSION 
-by Stephanie Leblanc
+**Thinkfulbnb** SUBMISSION by Stephanie Leblanc
 # Thank you for evaluating my submission

@@ -47,6 +47,7 @@ body {
   
   .item-double {
     flex: 2;
+    flex-shrink: 1;
   }
   
   /* -------  Navigation ------- */
@@ -59,7 +60,7 @@ body {
   
   .logo {
     font-family: "Pangolin", cursive;
-    font-size: 72px;
+    font-size: 52px;
     color: #fff;
   }
   
@@ -104,7 +105,8 @@ body {
   form select,
   form input {
     margin-bottom: 20px;
-    width: 180px;
+    width: 140px;
+    flex-shrink: 1;
   }
   
   form button {
@@ -159,12 +161,19 @@ body {
       align-content: center;
       justify-content: center;
       flex-direction: column;
-  
     }
     form button {
       flex: 1;
     }
   
+    form select,
+    form input {
+    margin-bottom: 20px;
+    width: 120px;
+    flex-shrink: 1;
+    font-size: smaller;
+    }
+
     .group {
       display: flex;
       flex-direction: row;
